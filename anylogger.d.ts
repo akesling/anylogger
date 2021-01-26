@@ -93,6 +93,6 @@ declare const anylogger: AnyLogger
 
 // NOTE: Do not rewrite it into `export default` unless anylogger's `main`
 // entrypoint actually exports `default`.
-export = anylogger
 export default anylogger
+// export = anylogger
 // please verify in anylogger.js that we now export to 'default' as well...

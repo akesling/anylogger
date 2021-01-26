@@ -1,6 +1,14 @@
+import chai from 'chai'
+const {expect} = chai
+
+import sinon from 'sinon'
+import anylogger from './anylogger.js'
+
+/*
 var expect = require('chai').expect
 var sinon = require('sinon')
 var anylogger = require('./anylogger.cjs')
+*/
 
 var sandbox = sinon.createSandbox();
 

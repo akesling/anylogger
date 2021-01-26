@@ -7,6 +7,7 @@
   "iife": "./anylogger.iife.js",
   "min": "./anylogger.min.js",
   "types": "./anylogger.d.ts",
+  "type": "module",
   "spec": "./anylogger.spec.js",
   "unpkg": "./anylogger.min.js",
   "files": [
